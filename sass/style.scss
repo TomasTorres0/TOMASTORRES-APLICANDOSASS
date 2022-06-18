@@ -1,0 +1,32 @@
+$color1:#d60808;
+$color2:#ffffff;
+$color3:#000000;
+@use 'header';
+@use 'main';
+@use 'aside';
+@use 'paquetes';
+
+
+body {
+    background-color: #f4d6b0;
+}
+.logomedia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+}
+
+footer{
+   .copyright {
+    color:$color1;
+    text-align: center;
+    font-size: larger;
+  
+   }
+  .piedepagina{
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+}
