@@ -1,0 +1,41 @@
+.titulopaquetes{
+    h1{
+      color: $color3;}
+  }
+  .paquetes{
+      padding: 2em;
+      display: flex;
+      justify-content: space-around;
+     .card{
+      width: 180px;
+      height: 160px;
+      margin-left: 8em;
+     }
+      .opc1{
+          float: left;
+          h3{
+              margin-top: 1em;
+              color: $color3;
+          }
+      }
+      .opc2{
+          float: left;
+          h3{
+              margin-top: 1em;
+              color: $color3;
+          }
+      }
+      .opc3{
+          float: right;
+          h3{
+              margin-top: 1em;
+              color: $color3;
+          }
+      }
+      ol{
+          padding: 2em;
+      }
+      li{
+          list-style: inside;
+      }
+  }

@@ -1,0 +1,118 @@
+body {
+  background-color: #f4d6b0;
+}
+
+.logomedia {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3em;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+header a {
+  font-size: x-large;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+  background-color: #f4d6b0;
+  padding: 1,5em;
+  margin-top: 10px;
+}
+
+main h1 {
+  color: #000000;
+  text-align: center;
+}
+
+main p {
+  -moz-column-count: 3;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 20px;
+  column-count: 3;
+  column-gap: 20px;
+  font-family: cursive;
+  padding: 3em;
+}
+
+aside .carousel-inner {
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  margin-top: 2em;
+}
+
+.titulopaquetes h1 {
+  color: #000000;
+}
+
+.paquetes {
+  padding: 2em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.paquetes .card {
+  width: 180px;
+  height: 160px;
+  margin-left: 8em;
+}
+
+.paquetes .opc1 {
+  float: left;
+}
+
+.paquetes .opc1 h3 {
+  margin-top: 1em;
+  color: #000000;
+}
+
+.paquetes .opc2 {
+  float: left;
+}
+
+.paquetes .opc2 h3 {
+  margin-top: 1em;
+  color: #000000;
+}
+
+.paquetes .opc3 {
+  float: right;
+}
+
+.paquetes .opc3 h3 {
+  margin-top: 1em;
+  color: #000000;
+}
+
+.paquetes ol {
+  padding: 2em;
+}
+
+.paquetes li {
+  list-style: inside;
+}
+
+footer .copyright {
+  color: #d60808;
+  text-align: center;
+  font-size: larger;
+}
+
+footer .piedepagina {
+  display: flex;
+  justify-content: space-evenly;
+}
+/*# sourceMappingURL=stylecss.map */
